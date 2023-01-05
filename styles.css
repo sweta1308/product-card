@@ -16,7 +16,8 @@ body {
 img {
     width: 300px;
     height: 55vh;
-    
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
 }
 
 .content {
@@ -69,4 +70,8 @@ img {
     font-size: 14px;
     padding: 12px 80px;
     border-radius: 0.5rem;
+}
+
+a {
+    text-decoration: none;
 }
