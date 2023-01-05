@@ -5,18 +5,68 @@ body {
 .card {
     margin: auto;
     background-color: white;
-    width: 500px;
-    height: 50vh;
+    width: 600px;
+    height: 55vh;
     margin-top: 120px;
     border-radius: 0.7rem;
-}
-.image {
     display: flex;
-    flex-direction: row;
 }
 
+
 img {
-    width: 250px;
-    height: 50vh;
+    width: 300px;
+    height: 55vh;
     
+}
+
+.content {
+    padding: 25px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.perfume {
+    font-family: 'Hind', sans-serif;
+    font-size: 10px;
+    color: #71717a;
+    letter-spacing: 0.3rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.name {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.description {
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+    color: #71717a;
+}
+
+.price {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 1000;
+    padding-right: 50px;
+    color: #059669;
+    margin-bottom: 15px;
+}
+
+.price-span{
+    font-size: 12px;
+    color: #71717a;
+    text-decoration: line-through;
+}
+.cart {
+    display: block;
+    background-color: #059669;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    padding: 12px 80px;
+    border-radius: 0.5rem;
 }
